@@ -7,5 +7,4 @@ public class Alend {
     public void food() {
         System.out.println("Kebab");
     }
-
 }
