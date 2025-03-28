@@ -41,6 +41,7 @@ public class Main {
                 break;
             case 6:
                 nini.food();
+                break;
             case 7:
                 epicClass.hello();
                 break;
