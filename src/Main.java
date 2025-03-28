@@ -14,8 +14,12 @@ public class Main {
                 new BirgittaEmanuel();
                 break;
             case "Nini":
-                new Nini();
+                Nini nini = new Nini();
+                nini.hello();
                 break;
+            case "Nini food":
+                Nini nini2 = new Nini();
+                nini2.food();
             case "SuperEpicClass":
                 new SuperEpicClass();
                 break;
