@@ -18,7 +18,7 @@ public class SuperEpicClass {
         System.out.println("Hello from SuperEpiccAss");
     }
 
-    public static void food() {
+    public void food() {
         System.out.println("jag älskar hamburgezas");
     }
 }

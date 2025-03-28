@@ -5,26 +5,36 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Skriv klass namn: ");
 
+        Alend alend = new Alend();
+        SuperEpicClass epicClass = new SuperEpicClass();
+        Nini nini = new Nini();
+        BirgittaEmanuel birgitta = new BirgittaEmanuel();
+
+
+
         String input = scanner.nextLine();
         switch (input) {
             case "Alend":
-                new Alend();
+                alend.hello();
                 break;
+            case "Alend food":
+                alend.food();
             case "BirgittaEmanuel":
-                new BirgittaEmanuel();
+                birgitta.hello();
                 break;
+            case "BirgittaEmanuel food":
+                birgitta.food();
             case "Nini":
-                Nini nini = new Nini();
                 nini.hello();
                 break;
             case "Nini food":
-                Nini nini2 = new Nini();
-                nini2.food();
+                nini.food();
             case "SuperEpicClass":
-                new SuperEpicClass();
+                epicClass.hello();
                 break;
             case "EpicFood":
-                SuperEpicClass.food();
+                epicClass.food();
+                break;
             default:
                 System.out.println("Klassen existerar inte");
                 break;
