@@ -1,6 +1,11 @@
 public class Alend {
 
-    public Alend() {
-            System.out.println("hallå");
+    public void hello() {
+        System.out.println("hallo");
     }
+
+    public void food() {
+        System.out.println("Kebab");
+    }
+
 }
