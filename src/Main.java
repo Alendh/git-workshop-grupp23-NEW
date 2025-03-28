@@ -23,6 +23,8 @@ public class Main {
             case "SuperEpicClass":
                 new SuperEpicClass();
                 break;
+            case "EpicFood":
+                SuperEpicClass.food();
             default:
                 System.out.println("Klassen existerar inte");
                 break;

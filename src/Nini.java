@@ -3,10 +3,9 @@ public class Nini {
         //hello();
     }
 
-    public static void hello() {
+    private void hello() {
         System.out.println("Heeeej från nini");
         //hejjfekljfjliwefjoijdsl
-
     }
 
     public void food() {
