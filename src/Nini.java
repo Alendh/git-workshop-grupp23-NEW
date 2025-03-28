@@ -11,4 +11,8 @@ public class Nini {
     public void food() {
         System.out.println("islatte");
     }
+
+    public void drink() {
+        System.out.println("ISLATTE");
+    }
 }

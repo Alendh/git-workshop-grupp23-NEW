@@ -20,6 +20,10 @@ public class Main {
             case "Nini food":
                 Nini nini2 = new Nini();
                 nini2.food();
+                break;
+            case "Nini drink":
+                Nini nini3 = new Nini();
+                nini3.drink();
             case "SuperEpicClass":
                 new SuperEpicClass();
                 break;
