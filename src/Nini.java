@@ -7,5 +7,5 @@ public class Nini {
         System.out.println("Heeeej från nini");
         //hejjfekljfjliwefjoijdsl
 
-    }
+    } //
 }
