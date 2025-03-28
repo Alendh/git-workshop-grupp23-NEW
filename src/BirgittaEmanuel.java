@@ -2,7 +2,6 @@ import java.sql.SQLOutput;
 
 public class BirgittaEmanuel {
     public BirgittaEmanuel(){
-        System.out.println("Birgitta engaged");
     }
 
     public void hello(){
