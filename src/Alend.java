@@ -1,7 +1,11 @@
 public class Alend {
-    public static void main(String[] args) {
-        while (true) {
-            System.out.println("Overheating PC...");
-        }
+
+    public void hello() {
+        System.out.println("hallo");
     }
+
+    public void food() {
+        System.out.println("Kebab");
+    }
+
 }

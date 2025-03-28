@@ -1,11 +1,14 @@
 public class Nini {
-    public static void main(String[] args) {
-        hello();
+    public Nini() {
+        //hello();
     }
 
-    public static void hello() {
+    public void hello() {
         System.out.println("Heeeej från nini");
         //hejjfekljfjliwefjoijdsl
+    }
 
-    } //
+    public void food() {
+        System.out.println("islatte");
+    }
 }
